@@ -6,6 +6,7 @@ import Courses from './components/courses/Courses'
 import NumberCounter from './components/numberCounter/NumberCounter'
 import About from './components/about/About'
 import Pricing from './components/pricing/Pricing'
+import Countact from './components/contact/Countact'
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
     <NumberCounter />
     <About />
     <Pricing />
+    <Countact />
     
    </main>
   )
