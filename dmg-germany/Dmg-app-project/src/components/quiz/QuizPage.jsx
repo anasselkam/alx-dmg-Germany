@@ -16,15 +16,15 @@ const QuizPage = ({ next, setScore }) => {
   };
 
   return (
-    <div className="bg-white p-8 rounded-lg shadow-md max-w-xl w-full">
+    <div className="bg-black text-white p-8 rounded-lg shadow-md max-w-xl w-full">
       <h2 className="text-lg font-bold mb-4">Frage {current + 1} von {questions.length}</h2>
-      <p className="mb-6 text-gray-700">{questions[current].question}</p>
+      <p className="mb-6 text-white">{questions[current].question}</p>
       <div className="grid gap-4">
         {questions[current].options.map((opt, idx) => (
           <button
             key={idx}
             onClick={() => handleAnswer(opt === questions[current].answer)}
-            className="bg-gray-200 hover:bg-yellow-300 px-4 py-2 rounded"
+            className="bg-black hover:bg-gray-400 px-4 py-2 rounded"
           >
             {opt}
           </button>

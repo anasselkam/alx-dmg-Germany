@@ -14,8 +14,8 @@ const ResultPage = ({ score }) => {
         <h2 className="text-2xl font-bold mb-6">Ihr Ergebnis</h2>
         
         <div className="mb-8">
-          <p className="text-4xl font-bold text-yellow-600 mb-2">{totalScore}/30</p>
-          <p className="text-gray-600">Gesamtpunkte</p>
+          <p className="text-4xl font-bold text-black-600 mb-2">{totalScore}/30</p>
+          <p className="text-black">Gesamtpunkte</p>
         </div>
   
         <div className="grid grid-cols-3 gap-4 mb-8">
