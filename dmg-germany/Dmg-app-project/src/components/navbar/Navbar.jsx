@@ -15,7 +15,7 @@ const Navbar = () => {
 
     const navLinks = (
         <ul className='font-medium flex flex-col md:flex-row lg:space-x-8 md:space-x-4 space-y-4 md:space-y-0 p-4 md:p-0'>
-            {['home', 'courses', 'about', 'testimonials', 'pricing', 'questions'].map((section) => (
+            {['home', 'courses', 'about', 'pricing', 'quiz', 'questions'].map((section) => (
                 <li key={section}>
                     <a
                         href={`#${section}`}
